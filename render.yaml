@@ -1,0 +1,7 @@
+# render.yaml
+
+services:
+  - name: Bot
+    type: web
+    buildCommand: ./gradlew build
+    startCommand: java -jar build/libs/Bot.jar
