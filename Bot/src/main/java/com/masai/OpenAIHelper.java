@@ -1,7 +1,7 @@
 package com.masai;
 
 import java.io.IOException;
-
+import io.github.cdimascio.dotenv.Dotenv;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service
 public class OpenAIHelper {
-    private static final String OPENAI_API_KEY = "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";
+    private static final String OPENAI_API_KEY = "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";
     private static final String OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 
     private String extractGeneratedContent(String response) {

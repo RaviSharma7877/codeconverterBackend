@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api")
+@CrossOrigin(origins = "https://glowing-quokka-3e0054.netlify.app/")
 public class ContentGenerationController {
 
     @Autowired
