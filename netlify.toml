@@ -1,3 +1,4 @@
+
 [build]
-  command = "./mvnw clean install"
+  command = "bash mvnw clean install"
   publish = "target/generated-static-files"
