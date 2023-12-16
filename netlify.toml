@@ -1,7 +1,3 @@
 [build]
   command = "./mvnw clean install"
   publish = "target/generated-static-files"
-
-
-[build.environment]
-  MAVEN_VERSION = "3.8.4"
